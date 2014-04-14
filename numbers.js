@@ -1,4 +1,7 @@
-// Javascript script which takes numbers as words and converts them into an integer. Takes numbers of the form "three hundred and fifty seven thousand, one hundred and ninty five" (357,195). Currently supports numbers up to 999,999. 
+// Javascript script which takes numbers as words and converts them into an integer.
+// Takes numbers of the form "three hundred and fifty seven thousand, one hundred
+// and ninty five" (357,195). Currently supports numbers up to 999. Intended to be
+// used as part of the OpenSoulver project.
 
 
 // Definitions
