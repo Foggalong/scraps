@@ -25,7 +25,6 @@ function occur(item, array) {
 
 // Units List
 var units = {
-var units = {
     "zero"       : 0,
     "one"        : 1,
     "two"        : 2,
@@ -80,7 +79,21 @@ else if (occur("hundred", in_list) === true) {
         out_list [0] = units[in_list[0]]*100;
     }
     else if (occur("and", in_list) === true ) {
-        for (x in in_list) 
+        and_passed = 0;
+        var sub_list = [];
+        for (i = length(in_list); i > 0; i--) {
+            if (in_list[i] == "and") { 
+                ++and_passed; 
+            } 
+            if (and_passed === 0) { 
+                sub_list[i] = in_list[i];
+                // console.log(sub_list);
+            }
+        }
+        for (n in sub_list) {
+            out_list [n] = units [ sub_list[n] ];
+        }
+        out_list [length(out_list)+2] = units[in_list[0]]*100;
     }
 }
 else {
