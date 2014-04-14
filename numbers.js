@@ -25,6 +25,7 @@ function occur(item, array) {
 
 // Units List
 var units = {
+var units = {
     "zero"       : 0,
     "one"        : 1,
     "two"        : 2,
@@ -43,16 +44,16 @@ var units = {
     "fifteen"    : 15,
     "sixteen"    : 16,
     "seventeen"  : 17,
-	"eighteen"   : 18,
-	"ninteen"    : 19,
-	"twenty"     : 20,
-	"thirty"     : 30,
-	"fourty"     : 40,
-	"fifty"      : 50,
-	"sixty"      : 60,
-	"seventy"    : 70,
-	"eighty"     : 80,
-	"ninty"      : 90,
+    "eighteen"   : 18,
+    "ninteen"    : 19,
+    "twenty"     : 20,
+    "thirty"     : 30,
+    "fourty"     : 40,
+    "fifty"      : 50,
+    "sixty"      : 60,
+    "seventy"    : 70,
+    "eighty"     : 80,
+    "ninty"      : 90,
     "hundred"    : 100,
 };
 
