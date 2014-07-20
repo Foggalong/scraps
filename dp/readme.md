@@ -1,1 +1,1 @@
-These are the remaining files of the Democracy Project. There's a copy of the constitution, a voter register, an unused ban register, and a copy of the logo.
+These are the remaining files of the Democracy Project. There's a copy of the constitution, a voter register, an unused ban register, a copy of the logo, and the program that I used to automate emails.
