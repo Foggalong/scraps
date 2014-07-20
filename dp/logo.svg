@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   viewBox="0 0 13.546667 13.546667"
+   height="48"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/josh/Programs/Icons/democracy-project/logo.png"
+   inkscape:export-xdpi="375.66"
+   inkscape:export-ydpi="375.66">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="960"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="1.2291667"
+     inkscape:cx="-316.51711"
+     inkscape:cy="-157.75558"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3007" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="0">
+      <stop
+         stop-color="#4b4b4b"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#2d2d2d"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(1.00003,0,0,1.00003,-3.6e-4,-3.6e-4)"
+       xlink:href="#0"
+       id="1"
+       y1="6.773"
+       y2="12.7"
+       gradientUnits="userSpaceOnUse"
+       x2="0" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#0"
+       id="linearGradient3000"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.00003,0,0,1.00003,-3.6e-4,-3.6e-4)"
+       y1="1.1478577"
+       x2="0"
+       y2="12.7"
+       x1="1.6263033e-18" />
+  </defs>
+  <rect
+     style="opacity:0.5;fill:#ffffff;fill-rule:evenodd"
+     id="rect14"
+     height="12.982"
+     rx="6.4910002"
+     y="0.28200001"
+     x="0.28200001"
+     width="12.982" />
+  <rect
+     style="fill:url(#linearGradient3000);fill-rule:evenodd"
+     id="rect16"
+     height="11.853"
+     rx="5.9260001"
+     y="0.847"
+     x="0.847"
+     width="11.853" />
+  <text
+     xml:space="preserve"
+     style="font-size:9.25102805999999944px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;font-family:Sans"
+     x="3.343786"
+     y="10.116055"
+     id="text3003"
+     sodipodi:linespacing="125%"
+     transform="scale(0.99567459,1.0043442)"><tspan
+       sodipodi:role="line"
+       id="tspan3005"
+       x="3.343786"
+       y="10.116055"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans;fill:#f9f9f9;fill-opacity:1">D</tspan></text>
+</svg>
