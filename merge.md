@@ -18,13 +18,15 @@ Clone both repositories into the same directory and go into repo A:
 ```bash
 $ git clone A
 $ git clone B
-$ cd A```
+$ cd A
+```
 
 Add a remote called B that points to the repo B (do `git remote -v` to view your remotes), and fetch copies of all B’s branches:
 
 ```bash
 $ git remote add B ../B
-$ git fetch B```
+$ git fetch B
+```
 
 To view all B’s branches that we’ve just fetched, do git branch -a. You should see B/master in the list. Now, still in repo A, create a branch called B-master in repo A that tracks B/master.
 
@@ -67,7 +69,8 @@ $ git clone user@git.server.caplin.com:/git/front-end-repo.git
 $ git clone user@git.server.caplin.com:/git/back-end-repo.git
 $ cd back-end-repo/
 $ git remote add front-end-remote ../front-end-repo
-$ git fetch front-end-remote```
+$ git fetch front-end-remote
+```
 
 Create branch front-end-master to hold the entire master branch from front-end-repo and check it out.
 
@@ -81,7 +84,8 @@ $ git mv README.md client/
 $ git mv apps client/
 $ git mv js-patches client/
 $ git mv conf client/
-$ git commit -m "Moved front-end-repo files and folders into client/"```
+$ git commit -m "Moved front-end-repo files and folders into client/"
+```
 
 Remove the submodule in front-end-master. Submodules are a bit finicky and it seems the only way to move them over is to delete all traces of them then add them later in the back-end-repo.
 
@@ -89,25 +93,29 @@ Remove the submodule in front-end-master. Submodules are a bit finicky and it se
 $ git rm .gitmodules
 $ git rm --cached sdk
 $ git commit -m "Deleted sdk submodule"
-$ rm -rf sdk # git doesn't delete folders```
+$ rm -rf sdk # git doesn't delete folders
+```
 
 Merge front-end-master into back-end-repo master
 
 ```bash
 $ git co master
-$ git merge front-end-master```
+$ git merge front-end-master
+```
 
 The only conflicts we had were in .gitignore, easily resolved.
 
 ```bash
 $ git add .gitignore
-$ git commit -m "Merged front-end-master (master branch from deprecated front-end-repo) into master"```
+$ git commit -m "Merged front-end-master (master branch from deprecated front-end-repo) into master"
+```
 
 Add the submodule back into client/.
 
 ```bash
 $ git submodule add ../sdk client/sdk
-$ git commit -m "Added sdk submodule"```
+$ git commit -m "Added sdk submodule"
+```
 
 Bring front-end-repo tags over. If none of your tag names collide, you can import the tags from front-end-repo to back-end-repo with:
 
@@ -117,13 +125,15 @@ In our case, we only had one tag in front-end-repo, v0.1, which collided with v0
 
 ```bash
 $ git co <SHA1_FOR_COMMIT>
-$ git tag -a v0.1-client -m "v0.1 release from original front-end repo"```
+$ git tag -a v0.1-client -m "v0.1 release from original front-end repo"
+```
 
 Finally, push any tags you’ve imported or created to origin.
 
 ```bash
 $ git push origin master
-$ git push --tags origin```
+$ git push --tags origin
+```
 
 Clean up: delete the front-end-remote, front-end-master branch, and front-end-repo so you won’t be tempted to use it (unless you still have branches that need to be merged).
 
@@ -131,13 +141,15 @@ Clean up: delete the front-end-remote, front-end-master branch, and front-end-re
 $ git remote rm front-end-remote
 $ git br -d front-end-master
 $ cd ..
-$ rm -rf front-end-repo```
+$ rm -rf front-end-repo
+```
 
 Anyone who pulls from back-end-repo won’t automatically get the submodule locally, so if they want it they’ll need to do:
 
 ```bash
 $ git submodule init
-$ git submodule update```
+$ git submodule update
+```
 
 Feel free to rename back-end-repo to something more appropriate like repo on your git server. This doesn’t involve git commands, just rename front-end-repo.git.
 Jenkins
