@@ -1,4 +1,4 @@
-# Merging two git repositories
+# [Merging two git repositories](http://blog.caplin.com/2013/09/18/merging-two-git-repositories/)
 *on Sep 18, 2013 in Stuff we like by Jeremy Herr*
 
 Today I would like to tell you about why and how we recently merged two git repositories, and the complications we encountered.
