@@ -1,0 +1,13 @@
+/* Old CSS that has at some point been used in /r/unixporn */
+
+/* --- Addon: Custom Report options --- */
+.link .report-action-form li:not(:last-of-type) label, .report-reasons li:not(:first-of-type) {font-size: 0;} 
+.link .report-action-form li label:after {font-size: 12px;}
+.link .report-reasons li:after {font-size: 12px; line-height: 20px;}
+.link .report-action-form li:nth-of-type(1) label:after, .report-reasons li[title="spam"]:after {content: "Off Topic/Spam";}
+.link .report-action-form li:nth-of-type(2) label:after, .report-reasons li[title="vote manipulation"]:after {content: "Default Setup";}
+.link .report-action-form li:nth-of-type(3) label:after, .report-reasons li[title="personal information"]:after {content: "Being an Ass";}
+.link .report-action-form li:nth-of-type(4) label:after, .report-reasons li[title="sexualizing minors"]:after {content: "No Dirty Screenshot";}
+.link .report-action-form li:nth-of-type(5) label:after, .report-reasons li[title="breaking reddit"]:after {content: "No Details Comment";}
+.link .report-action-form li:nth-of-type(6) label:after, .report-reasons li[title="Other"]:after {content: "";}
+/* --- End Addon --- */
