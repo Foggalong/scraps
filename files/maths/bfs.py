@@ -13,8 +13,7 @@ def bfs(vertices, adjacencies, root):
     Q = [root]
 
     while Q != []:
-        w = Q[0]
-        del Q[0]
+        w = Q.pop(0)
         for v in adjacencies[w]:
             if distances[v] == -1:
                 distances[v] = distances[w] + 1
