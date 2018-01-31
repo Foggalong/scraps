@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+This script was used as proof that a lecturer had accidentally unannonymised
+the data from tests by releasing a list of students and their ID numbers.
+"""
+
 # Extract data from names.txt
 name_ids, names = [], []
 with open('names.txt', 'r') as file:
