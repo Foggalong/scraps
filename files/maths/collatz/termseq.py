@@ -12,19 +12,23 @@ def collatz(n):
         return(int(n/2))
 
 
+with open("hailstones.csv", "r") as file:
+    # skip through to the last line
+    for line in file:
+        pass
+    # continue from the next integer
+    start = int(line.strip().split(",")[0]) + 1
+
+
 # compute 10 hailstone sequences
 print("Computing hailstone sequences")
-caught = []
 sequences = []
-for i in range(1, 10000):
+for i in range(start, start+10000):
     print("Running for {}".format(i), end="\r")
-    sequence, x = [], i
+    sequence = [i]
     # hailstone sequence ends when it reaches 1
-    while x not in caught:
-        x = collatz(sequence[-1])
-        sequence.append(x)
-        if x in caught:
-            break
+    while sequence[-1] != 1:
+        sequence.append(collatz(sequence[-1]))
     sequences.append(sequence)
 
 

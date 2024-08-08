@@ -1,5 +1,7 @@
 from random import choice
 
+# playing around with the idea of string similarity
+
 
 def random_string(chars, length):
     """

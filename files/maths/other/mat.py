@@ -1,3 +1,8 @@
+# in sixth form I got obsessed with the generalisation of the
+# formula for inverting a matrix, computing them by hand all the
+# way up to five-by-five. here's one I wrote for three by three
+# matrices while learning Python.
+
 inpt = input("Matrix: ").split()
 mat = []
 for char in inpt:

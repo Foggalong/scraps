@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# quick script for checking if a number is prime
+
 print "Prime Tester"
 
 def isint(n):

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# returns the given string as a list of 5-bit binary numbers
+
 while True:
     string, ints = input("> ").upper(), []
     for char in string:
