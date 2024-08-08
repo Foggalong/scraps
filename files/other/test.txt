@@ -1,6 +1,0 @@
-This is a test file.
-It doesn't do much.
-It's not very big.
-But it's very important,
-And it does it's job well.
-
