@@ -2,8 +2,16 @@
 import time
 import android
 
+"""
+There used to be an old Android package which allowed for the running of bare-
+Python scripts, interacting with some of the OS' basic features (e.g. toasts)
+using a minimal API. This is me playing around with that.
+"""
+
+
 #simplifying commands
 droid = android.Android()
+response = droid.dialogGetResponse().result
 
 def sleep(s):
     time.sleep(s)
@@ -11,6 +19,44 @@ def sleep(s):
 def toast(n):
     droid.makeToast(n)
     sleep(3)
+
+def pause(a):
+	time.sleep(a)
+
+def show():
+	droid.dialogShow()
+
+def alert(a, b):
+	droid.dialogCreateAlert(a, b)
+
+def PositiveButton(a):
+	droid.dialogSetPositiveButtonText(a)
+
+def NegativeButton(a):
+	droid.dialogSetNegativeButtonText(a)
+
+def NeutralButton(a):
+	droid.dialogSetNeutralButtonText(a)
+
+def choicelist(a):
+	droid.dialogSetSingleChoiceItems(a)
+	PositiveButton('Yes')
+	NegativeButton('Cancel')
+	droid.dialogShow()
+
+def GetInput(a):
+	droid.dialogGetInput(a)
+
+def conversion(a):
+	n = GetInput("How many" + response +"?").result
+	PositiveButton('Convert!') 
+	NegativeButton('Cancel')
+	title = 'Conversion'
+	message = a 
+	alert(title, message)
+	PositiveButtonText('Continue')
+	show()
+
 
 
 #program

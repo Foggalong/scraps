@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+# an even more basic calculator than included in calc.py
+
 import Tkinter as tk
 def click(key):
 	global memory

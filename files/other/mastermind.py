@@ -1,5 +1,7 @@
 from random import randint
 
+# classic mastermind game, implemented in Python
+
 print("Mastermind\n")
 print("The mastermind has thought of a number")
 print("between 0000 and 9999. In 20 turns you")

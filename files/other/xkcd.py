@@ -1,5 +1,10 @@
 #!/usr/bin/env python
+
+# script which ran through the 'plot' of
+# https://xkcd.com/416 in a terminal
+
 import time
+
 print "STARTING WIFI AUTOCONFIG..."
 time.sleep(3)
 print "SEARCHING FOR WIFI..."

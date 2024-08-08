@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# the start of trying to create a minesweeper game, never finished
+
 from random import shuffle
 
 def mine_field(row,col,count):

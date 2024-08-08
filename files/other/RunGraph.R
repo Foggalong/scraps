@@ -1,5 +1,8 @@
 #!/usr/bin/env Rscript
 
+# Pre-Stava I used to keep my running data in a CSV file which
+# I'd then analyse with bad R code.
+
 data_location = "./data.csv"
 
 # returns true of n is an integer, false otherwise

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-This script was used as proof that a lecturer had accidentally unannonymised
+This script was used as proof that a lecturer had accidentally de-anonymised
 the data from tests by releasing a list of students and their ID numbers.
 """
 

@@ -1,3 +1,6 @@
+# R code which demonstrated filtering a dataframe
+# based on some bound criteria using dummy data.
+
 # GENERATING DUMMY DATA
 # dummy data of length
 n = 40;

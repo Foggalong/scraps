@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+
+"""
+A very messy TUI programme which allowed for converting between
+lots of different types of units. Tried porting this to Android
+via the API mentioned in `android.py` at one point, but that was
+never finished.
+"""
+
 import time
 print " ---------------"
 print "| The Converter |"

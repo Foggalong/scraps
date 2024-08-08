@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# trying and failing to automate organising my music folder
+
 from os import listdir, mkdir, rename
 from os.path import exists, isfile, join
 

@@ -1,3 +1,5 @@
+// playground for doing arithmetic in Javascript
+
 var x = 20 ;
 var y = 10 ;
 document.write("Variables");

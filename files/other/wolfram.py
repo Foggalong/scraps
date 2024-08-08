@@ -1,3 +1,7 @@
+"""
+a very minimal web browser
+"""
+
 import gtk
 import webkit
 import gobject
