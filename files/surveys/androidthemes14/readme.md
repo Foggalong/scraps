@@ -1,1 +1,0 @@
-Survey I did for [/r/androidthemes](https://pay.reddit.com/r/androidthemes/) in 2014.
