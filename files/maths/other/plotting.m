@@ -1,5 +1,5 @@
-% demonstration of basic plotting in R, used as a reference
-% whenever I forgot the basic workflow.
+% demonstration of basic plotting in MATLAB, used as a
+% reference whenever I forgot the basic workflow.
 
 fdata = load('float_data.csv');
 ddata = load('double_data.csv');
